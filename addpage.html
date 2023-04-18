@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addpage.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+          Add Record
+        </div>
+        
+        <div class="form">
+           <div class="inputfield">
+              <label>Intern Name</label>
+              <input type="text" id="internName" class="input">
+           </div>  
+           <div class="inputfield">
+            <label>Image</label>
+            <input type="file" id="image" class="input">
+         </div> 
+           <div class="inputfield">
+            <label>Phone Number</label>
+            <input type="text" id="phoneNumber" class="input">
+         </div>
+         <div class="inputfield">
+            <label>Email Address</label>
+            <input type="text" id="emailAddress" name="email" required class="input">
+         </div>
+          <div class="inputfield">
+              <label>Start Date</label>
+              <input type="date" id="startDate" class="input">
+           </div> 
+           <div class="inputfield">
+            <label>End Date</label>
+            <input type="date" id="endDate" class="input">
+         </div> 
+         <div class="inputfield">
+            <label>Day(s) left</label>
+            <input type="text" id="daysLeft" class="input">
+         </div>
+         
+         <div class="inputfield">
+            <label>First Task</label>
+            <div class="custom_select">
+              <select id="firstTask">
+                <option value="">Select</option>
+                <option value="Task 1">Task 1</option>
+                <option value="Task 2">Task 2</option>
+                <option value="Task 3">Task 3</option>
+                <option value="Task 4">Task 4</option>
+                <option value="Task 5">Task 5</option>
+              </select>
+            </div>
+          </div> 
+          
+          <div class="inputfield">
+            <label>Second Task</label>
+            <div class="custom_select">
+              <select id="secondTask">
+                <option value="">Select</option>
+                <option value="Task 1">Task 1</option>
+                <option value="Task 2">Task 2</option>
+                <option value="Task 3">Task 3</option>
+                <option value="Task 4">Task 4</option>
+                <option value="Task 5">Task 5</option>
+              </select>
+            </div>
+          </div> 
+          
+          <div class="inputfield">
+            <label>Department</label>
+            <div class="custom_select">
+              <select id="department">
+                <option value="">Select a department</option>
+                <option value="Department 1">Department 1</option>
+                <option value="Department 2">Department 2</option>
+                <option value="Department 3">Department 3</option>
+                <option value="Department 4">Department 4</option>
+                <option value="Department 5">Department 5</option>
+              </select>
+            </div>
+          </div>
+            <div class="inputfield">
+              <label>Mentor</label>
+              <input id="metnorT" name="mentor" type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>First Task Result</label>
+              <input id="result1" name="task1-result" type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Secon Task Result</label>
+              <input id="result2" name="task2-result" type="text" class="input">
+           </div> 
+           <div class="inputfield">
+            <label>Task images</label>
+            <input id="imgT" type="file" multiple class="input">
+         </div> 
+         
+          <div class="inputfield">
+            <input type="submit" value="Cancel" class="btn btn1">
+           <input id="submit1" type="submit" value="Add" class="btn btn2">
+          </div>
+          
+        </div>
+    </div>
+    <script src="addpage.js"></script>
+    <!-- <script src="test1.js"></script> -->
+
+
+    
+</body>
+</html>
